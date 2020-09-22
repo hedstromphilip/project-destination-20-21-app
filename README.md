@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+## Installation steps
+
+1. This project was built using `npx create-react-app <project name>`
+2. React-bootstrap was added using `npm install react-bootstrap bootstrap`
