@@ -17,7 +17,6 @@ const NavBarItem = ({isCurrentPath, name, path}) => {
 
 const NavigationBar = () => {
   const currentPathName = useLocation().pathname;
-  console.log("XXX",currentPathName);
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
       <Navbar.Brand><span className="brand">Project Destination</span></Navbar.Brand>
