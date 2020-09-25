@@ -1,0 +1,19 @@
+.blueBackground {
+    background-color: #339CFF;
+}
+
+.yellowBackground {
+    background-color: #FFE633;
+}
+
+.greenBackground {
+    background-color: #2ECC71;
+}
+
+.redBackground {
+    background-color: #E74C3C;
+}
+
+.pageContainer {
+    min-height: 80vh;
+}

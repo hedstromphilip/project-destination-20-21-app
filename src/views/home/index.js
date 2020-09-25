@@ -1,14 +1,12 @@
 import React from 'react';
-import { Button } from 'react-bootstrap'
 
 import './home.css';
+import '../../constants/classes.css';
 
 const Home = () => {
     return (
-        <div>
+        <div class="blueBackground pageContainer">
             <p>home</p>
-            <Button variant="primary" className="button">Events</Button>
-            <Button variant="primary" className="button">Products</Button>
         </div>
     );
 };

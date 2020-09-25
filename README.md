@@ -68,7 +68,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-## Installation steps
+
+
+
+
+## Steps taken by developer:
 
 1. This project was built using `npx create-react-app <project name>`
-2. React-bootstrap was added using `npm install react-bootstrap bootstrap`
+2. The files was re-arranged for better structure
+3. React-bootstrap was added using `npm install react-bootstrap bootstrap`

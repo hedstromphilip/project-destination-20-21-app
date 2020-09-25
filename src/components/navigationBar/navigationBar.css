@@ -1,0 +1,20 @@
+.brand {
+    font-weight: bold;
+}
+
+.active {
+    color: black;
+    border: 0px;
+    border-bottom: 3px;
+    border-color: #FFE633;
+    border-style: solid;
+}
+
+.item {
+    height: 25px;
+    margin-top: 3px;
+}
+
+.item:hover {
+    color: black;
+}
