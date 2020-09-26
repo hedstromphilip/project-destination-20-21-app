@@ -1,0 +1,36 @@
+:root {
+    --navy-color: #152971;
+    --blue-color: #BCDBF9;
+    --beige-color: #DBC2A7;
+    --pink-color: #FA8795;
+    --orange-color: #FEBB47;
+}
+
+.title {
+    font-family: 'Kumbh Sans';
+    font-weight: 400;
+    /* font-size: 25px; */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-family: 'Space Mono';
+    font-weight: 400;
+    /* font-size: 16px; */
+    letter-spacing: 2px;
+}
+
+.text {
+    font-family: 'Open Sans';
+}
+
+.page {
+    padding-top: 15px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.light-text {
+    color: #F6F6F6;
+}

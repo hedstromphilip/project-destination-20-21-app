@@ -1,8 +1,4 @@
-
-.button {
-    margin: 5px;
-}
-
-.page {
+.homePage {
     min-height: 100vh;
+    background-color: var(--beige-color);
 }

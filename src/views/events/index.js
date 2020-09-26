@@ -1,12 +1,11 @@
 import React from 'react';
 
 import './events.css';
-import '../../constants/classes.css';
 
 const Events = () => {
     return (
-        <div class="redBackground pageContainer">
-            <p>events</p>
+        <div class="eventsPage page">
+            <h2 class="title">Events</h2>
         </div>
     );
 };

@@ -1,12 +1,8 @@
-.brand {
-    font-weight: bold;
-}
-
 .active {
     color: black;
     border: 0px;
     border-bottom: 3px;
-    border-color: #FFE633;
+    border-color: var(--blue-color);
     border-style: solid;
 }
 
@@ -17,4 +13,13 @@
 
 .item:hover {
     color: black;
+}
+
+.brand-text {
+    font-family: 'Kumbh Sans';
+    font-weight: bold;
+}
+
+.item-text {
+    font-family: 'Space Mono';
 }
