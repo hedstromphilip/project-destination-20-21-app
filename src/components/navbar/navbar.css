@@ -8,7 +8,7 @@
 
 .item {
     height: 25px;
-    margin-top: 3px;
+    /* margin-top: 1px; */
 }
 
 .item:hover {
@@ -22,4 +22,9 @@
 
 .item-text {
     font-family: 'Space Mono';
+}
+
+.navbar-logo {
+    margin-bottom: .25em;
+    margin-right: .2em;
 }

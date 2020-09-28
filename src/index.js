@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
-import * as Views from './views';
-import { NavigationBar, Footer } from './components';
+import * as Views from 'src/views';
+import { Navbar, Footer } from 'src/components';
 
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   return (
     <BrowserRouter>
-      <NavigationBar />
-      <div className="App">
+      <Navbar />
+      <div class="App">
         <Switch>
           <Route exact path="/" component={Views.Home} />
           <Route path="/events" component={Views.Events} />

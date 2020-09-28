@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap'
 import { Link, useLocation } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './navigationBar.css';
+import './navbar.css';
 
 const NavBarItem = ({isCurrentPath, name, path}) => {
   if (isCurrentPath) return (
@@ -18,7 +18,7 @@ const NavigationBar = () => {
   const currentPathName = useLocation().pathname;
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky="top">
-      <Navbar.Brand><span class="brand-text">Project Destination</span></Navbar.Brand>
+      <Navbar.Brand><img src={require("src/assets/pd_logo.png")} class="navbar-logo" width="30" height="30" alt="PD Logo"></img>{' '}<span class="brand-text">Project Destination</span></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
