@@ -22,6 +22,11 @@ const Footer = () => {
                             <i class='fab fa-facebook-f follow-icon'></i>
                         </div>
                     </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/project-destination/">
+                        <div class="follow-icon-container">
+                            <i class='fab fa-linkedin-in follow-icon'></i>
+                        </div>
+                    </a>
                 </div>
             </div>
         </footer>

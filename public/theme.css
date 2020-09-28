@@ -12,6 +12,7 @@
     /* font-size: 25px; */
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: black;
 }
 
 .subtitle {
@@ -19,16 +20,19 @@
     font-weight: 400;
     /* font-size: 16px; */
     letter-spacing: 2px;
+    color: black;
 }
 
 .text {
     font-family: 'Open Sans';
+    color: black;
 }
 
 .page {
-    padding-top: 15px;
-    padding-right: 10vw;
-    padding-left: 10vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 8vw;
+    padding-left: 8vw;
 }
 
 .light-text {

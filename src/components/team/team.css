@@ -1,0 +1,89 @@
+
+.mail-icon {
+    color: black;
+}
+
+.mail-icon:hover {
+    color: rgb(0, 119, 255);
+    transform: scale(1.2);
+}
+
+.team-member-name {
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.team-member-role {
+    margin-bottom: 0px;
+    /* white-space: pre-line; */
+}
+
+.team-member {
+    min-height: 100px;
+    /* background-color: var(--blue-color); */
+    text-align: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 250px;
+}
+
+
+.grid-item {
+    min-height: 150px;
+    text-align: center;
+    /* background-color: var(--navy-color); */
+    margin: 10px;
+    flex: 0px;
+    min-width: 200px;
+    grid-area: item;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* background-color: var(--pink-color); */
+    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    grid-template-areas: 
+        "one two three four"
+        "five six seven eight"
+        ". nine ten ."
+    ;
+}
+
+@media screen and (max-width: 1040px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "one two"
+            "three four"
+            "five six"
+            "seven eight"
+            "nine ten"
+        ;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "one"
+            "two"
+            "three"
+            "four"
+            "five"
+            "six"
+            "seven"
+            "eight"
+            "nine"
+            "ten"
+        ;
+    }
+    .team-member {
+        max-width: 300px;
+    }
+}

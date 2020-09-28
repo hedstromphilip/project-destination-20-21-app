@@ -1,4 +1,4 @@
-export const events = {
+const events = {
     hitract: {
         pictureUrl: "",
         title: "",
@@ -6,3 +6,5 @@ export const events = {
         eventUrl: ""
     }
 };
+
+export default events;

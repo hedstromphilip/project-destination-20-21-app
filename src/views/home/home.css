@@ -1,4 +1,12 @@
 .homePage {
-    min-height: 100vh;
+    /* min-height: 70vh; */
     background-color: var(--orange-color);
+}
+
+.home-title {
+    margin-bottom: 0px;
+}
+
+.home-subtitle {
+    margin-bottom: 60px;
 }
