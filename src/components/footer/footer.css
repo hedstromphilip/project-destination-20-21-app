@@ -1,0 +1,44 @@
+.footer-title {
+    margin-bottom: 7px;
+}
+
+.symbol {
+    position: relative;
+    bottom: .05em;
+    font-size: 19px;
+}
+
+.footer-subtitle {
+    font-size: 12px;
+    margin-bottom: 5px
+}
+
+.footer-container {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.follow-icon {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.follow-icon-container {
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: inline-block;
+}
+
+.follow-icon-container:hover {
+    background-color: var(--pink-color);
+}

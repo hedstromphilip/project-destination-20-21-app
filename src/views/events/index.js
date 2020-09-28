@@ -5,7 +5,7 @@ import './events.css';
 const Events = () => {
     return (
         <div class="eventsPage page">
-            <h2 class="title">Events</h2>
+            <h1 class="title">Events</h1>
         </div>
     );
 };
