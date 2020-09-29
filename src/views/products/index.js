@@ -5,7 +5,7 @@ import './products.css';
 const Products = () => {
     return (
         <div class="productsPage page">
-            <h1 class="title light-text">Products</h1>
+            <h1 class="title">Products</h1>
         </div>
     );
 };
